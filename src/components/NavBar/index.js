@@ -7,13 +7,15 @@ const NavBar = () => {
 
     const toggleClick = () => setIsCollapse(!isCollapse);
 
+    const collapseNavBar = () => setIsCollapse(false);
+
     useEffect(() => {
         let watchScroll = () => window.addEventListener("scroll", isAtTopPosition);
         watchScroll();
         return () => window.removeEventListener("scroll", isAtTopPosition);
     });
 
-    const isAtTopPosition = y => (y === 0) ? setisAtTop(true) : setisAtTop(false);
+    const isAtTopPosition = () => (window.pageYOffset === 0) ? setisAtTop(true) : setisAtTop(false);
     return (
         <NavBar1 id="NavBar" isAtTop={isAtTop}>
             <NavContainer1>
@@ -24,9 +26,10 @@ const NavBar = () => {
                     <NavBarSvgIcon src="menuicon.svg" alt="Menu Icon"/>
                 </NavBarMenuContainer>
                 <NavItemContainer id="NavMenu" isCollapse={isCollapse}>
-                    <NavItem href='#About'>About</NavItem>
-                    <NavItem href='#Skills'>Skills</NavItem>
-                    <NavItem href='#Contact'>Contact</NavItem>
+                    <NavItem href='#About' onClick={collapseNavBar}>About</NavItem>
+                    <NavItem href='Skills1.svg' onClick={collapseNavBar}>About</NavItem>
+                    <NavItem href='#Skills' onClick={collapseNavBar}>Skills</NavItem>
+                    <NavItem href='#Contact' onClick={collapseNavBar}>Contact</NavItem>
                 </NavItemContainer>
             </NavContainer1>
         </NavBar1>
