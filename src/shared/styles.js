@@ -259,7 +259,7 @@ export const CardText1 = styled.p`
 `;
 
 export const NavBar1 = styled.nav`
-    opacity: ${({isAtTop}) => (isAtTop ? 1 : 0.7)};
+    opacity: ${({isAtTop}) => (isAtTop ? 1 : 0.8)};
     display: flex;
     justify-content: center;
     align-items: center;
