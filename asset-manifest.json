@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kahhwaportfolio/static/css/main.202bfd94.chunk.css",
-    "main.js": "/kahhwaportfolio/static/js/main.16d7aacd.chunk.js",
-    "main.js.map": "/kahhwaportfolio/static/js/main.16d7aacd.chunk.js.map",
+    "main.js": "/kahhwaportfolio/static/js/main.116b1a5f.chunk.js",
+    "main.js.map": "/kahhwaportfolio/static/js/main.116b1a5f.chunk.js.map",
     "runtime-main.js": "/kahhwaportfolio/static/js/runtime-main.80b228d5.js",
     "runtime-main.js.map": "/kahhwaportfolio/static/js/runtime-main.80b228d5.js.map",
     "static/js/2.6611ccb2.chunk.js": "/kahhwaportfolio/static/js/2.6611ccb2.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.80b228d5.js",
     "static/js/2.6611ccb2.chunk.js",
     "static/css/main.202bfd94.chunk.css",
-    "static/js/main.16d7aacd.chunk.js"
+    "static/js/main.116b1a5f.chunk.js"
   ]
 }
