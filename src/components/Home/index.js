@@ -25,7 +25,7 @@ const Home = () => {
     const renderDownloadCV = () => {
       return (
         <AboutButtonSection>
-            <form target="_blank" action="https://drive.google.com/file/d/1M9NtHq7arjLSck8Mc2nLf3e9rPDoZZ6B/view?usp=sharing">
+            <form target="_blank" action="https://drive.google.com/file/d/1-t5EorFXVTBqSMJ1ye08HgnZwu10kDfh/view?usp=sharing">
             <Fade in>
                 <Button1 type="submit">Download Resume</Button1>
             </Fade>
